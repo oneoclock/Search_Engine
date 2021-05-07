@@ -92,7 +92,7 @@ with open(stopwords_file, 'r') as f:
 #relevance_file = '/relevance.txt'
     query_path = 'queries.txt'  #sys.argv[2]
     q=['university']
-    processed_queries = indexer.preprocess_query(stopwords,q) #pass query as list
+    processed_queries = indexer.preprocess_query_(stopwords,q) #pass query as list
 
     similarity_table = indexer.calc_similarity_table(processed_queries[0], 
                                          inverted_index, document_lengths, 
