@@ -16,7 +16,7 @@ This will return a link to the search engine web page.
 
 Please make sure that the directory structure is maintained and all txt files such as stopwords.txt are in the same directory of search.py
 
-List of files and what they do:
+List of files and what they do:<br>
 crawler.py crawls webpages in the uic.edu domain and stores an inverted index in the CWD.
 indexer.py consists of the implementation of the TF-IDF indexer and is imported by crawler.py
 preprocess.py implements the preprocessing of documents and queries.
